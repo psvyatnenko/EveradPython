@@ -220,3 +220,14 @@ class RegAdvPageLocators(object):
     whatSourceByTrafficField = By.XPATH(".//*[@id='traffic_sources']")
     sendButton = By.XPATH("html/body/div[3]/main/div/div[1]/div[2]/div[2]/form/div[18]/input")
     sendButtonText = "Отправить"
+
+
+class RegAdvSuccessPageLocators(object):
+    regAdvSuccessLabel1 = By.XPATH("html/body/div[3]/main/div/text()[2]")
+    regAdvLabelText1 = "Анкета успешно отправлена!"
+    regAdvSuccessLabel2 = By.XPATH("html/body/div[3]/main/div/text()[3]")
+    regAdvLabelText2 = "Ваше предложение рассмотрит наш менеджер. Мы свяжемся с вами тем контактам, которые вы указали."
+    regAdvSuccessLabel3 = By.XPATH("html/body/div[3]/main/div/text()[4]")
+    regAdvLabelText3 = "Если у вас остались вопросы, напишите нам в Skype:"
+    regAdvSuccessSkypeLink = By.XPATH("html/body/div[3]/main/div/a")
+    regAdvSkypeLinkText3 = "everad_adv"
